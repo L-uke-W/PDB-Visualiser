@@ -10,8 +10,12 @@ using namespace std;
 
 
 int main() {
-    char filepath[20]; //get the file
+    string file_path; // hold file path
     string file; // hold the file contents
+
+    file_path = "C:\Users\lward\Downloads\9ke9.cif";
+
+    ofstream file()
 
     
 }
