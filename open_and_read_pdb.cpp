@@ -48,7 +48,12 @@ class Protein {
 
 
 int main(int argv, char *argc) {
-
+    
+    if (argv < 2) {
+        cout << "Usage: [EXE]open_and_read.exe [FILEPATH] file path of protein";
+        return 1;
+    }
+    
     char dir = argc[2];
 
     //Check if the file exists
