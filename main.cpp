@@ -57,10 +57,10 @@ int main(int argv, char *argc) {
     char dir = argc[2];
 
     //Check if the file exists
-    if () {
+    if (dir) {
         Protein prtn;
 
-        ifstream
+        //ifstream
     }
          
 
