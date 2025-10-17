@@ -55,14 +55,20 @@ int main(int argv, char *argc) {
     }
     
     char dir = argc[2];
-
+   
+    ifstream in(dir, ios::binary);
+    
     //Check if the file exists
-    if (dir) {
-        Protein prtn;
+    if (!in) {
+        cout << "File not found";
 
-        //ifstream
+        return 1;
     }
-         
+    
+    // Read file
+    for (int i = 0; i < in.eof(); i++) {
+        in[i]
+    }
 
     //ofstream file()
 
